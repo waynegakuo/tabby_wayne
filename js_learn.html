@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+
+    function kavyu1() {
+        let name = 'Tabitha'
+        console.log(name)
+    }
+
+    const something = () => {
+        let name = 'Tabby'
+        console.log(name)
+        //...
+    }
+
+    const kavyu = () => wayne();
+
+    const wayne = () => {
+        let name = 'Gakuo';
+        console.log(name);
+    }
+
+    const tabz = (fname, lname) => {
+
+        this.first = fname;
+        this.last = lname;
+
+        console.log(first.length)
+    }
+
+    class Person {
+        constructor(name) {
+            this.name = name
+        }
+        hello() {
+            return 'Hello, I am ' + this.name + '.'
+        }
+    }
+
+
+    class Musician extends Person {
+        hello() {
+            return super.hello() + ' I am a musician.'
+        }
+    }
+
+    let prince = new Musician('Prince')
+    console.log(prince.hello())
+    
+
+    tabz('Thabitha', 'Kavyu')
+
+    kavyu();
+
+    kavyu1();
+
+    something();
+</script>
+
+<body>
+    <h1>Tabby</h1>
+
+</body>
+
+</html>
